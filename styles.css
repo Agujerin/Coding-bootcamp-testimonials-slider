@@ -26,7 +26,7 @@ body {
     flex-direction: column;
 }
 
-.flex-container section {
+.flex-container article {
     position: relative;
     display: flex;
     flex-direction: row-reverse;
@@ -220,7 +220,7 @@ body {
 }
 
 @media (max-width: 700px){
-    .flex-container section {
+    .flex-container article {
         flex-direction: column;
     }
     .image-container {
